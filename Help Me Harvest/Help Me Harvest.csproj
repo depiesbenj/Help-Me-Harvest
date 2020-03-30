@@ -70,9 +70,12 @@
     <Content Include="Images\backIcon.png" />
     <Content Include="Images\directionsIcon.png" />
     <Content Include="Images\current-location-icon-png-27.jpg" />
+    <Content Include="Images\fruit1.jpg" />
+    <Content Include="Images\fruit2.jpg" />
     <Content Include="Images\homeIcon.png" />
     <Content Include="Images\map.png" />
     <Content Include="Images\locationIcon.png" />
+    <Content Include="Images\Vegetable 2.png" />
     <Content Include="SignUp.aspx" />
     <Content Include="Results.aspx" />
     <EntityDeploy Include="Global.asax" />

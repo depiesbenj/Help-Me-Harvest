@@ -13,9 +13,11 @@
         .auto-style2 {
             width: 508px;
             background-color: #00FFCC;
+            font-size: xx-large;
+            text-align: center;
         }
         .auto-style3 {
-            width: 609px;
+            width: 305px;
         }
         .auto-style4 {
             width: 508px;
@@ -29,6 +31,20 @@
         .auto-style7 {
             color: #993333;
         }
+        .auto-style8 {
+            width: 508px;
+            font-size: large;
+        }
+        .auto-style9 {
+            font-size: large;
+        }
+        .auto-style10 {
+            background-color: #00FFCC;
+        }
+        .auto-style11 {
+            width: 305px;
+            background-color: #00FFCC;
+        }
     </style>
 </head>
 <body>
@@ -36,8 +52,49 @@
         <div>
             <table style="width: 100%;">
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
                     <td class="auto-style2">Search Page </td>
+                    <td class="auto-style10">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style8">Enter name of fruit or vegetable </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:TextBox ID="txtFruitVeg" runat="server" CssClass="auto-style9"></asp:TextBox>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style8">Enter city and state or zipcode</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:TextBox ID="txtCityStateZip" runat="server" CssClass="auto-style9"></asp:TextBox>
+                    </td>
+                    <td class="auto-style6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style8">Enter range </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:TextBox ID="txtRange" runat="server" CssClass="auto-style9"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -47,48 +104,8 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">Enter name of fruit or vegetable </td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
-                        <asp:TextBox ID="txtFruitVeg" runat="server"></asp:TextBox>
+                    <td class="auto-style8">Check what type of supliers to include:<br />
                     </td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">Enter city and state or zipcode</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
-                        <asp:TextBox ID="txtCityStateZip" runat="server"></asp:TextBox>
-                    </td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">Enter range </td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
-                        <asp:TextBox ID="txtRange" runat="server"></asp:TextBox>
-                    </td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">Check what type of supliers to include:</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -120,20 +137,17 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
+                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:ImageButton ID="btnBack" runat="server" Height="40px" ImageUrl="~/Images/backIcon.png" Width="40px" />
                     </td>
-                    <td>
+                    <td rowspan="2">
                         <asp:Label ID="lblErrorMsg" runat="server" CssClass="auto-style7"></asp:Label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
+                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:LinkButton ID="lbLogout" runat="server" OnClick="lbLogout_Click">Logout</asp:LinkButton>
                     </td>
-                    <td>&nbsp;</td>
                 </tr>
             </table>
         </div>

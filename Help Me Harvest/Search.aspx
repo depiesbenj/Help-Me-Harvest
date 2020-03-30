@@ -26,6 +26,9 @@
         .auto-style6 {
             background-color: #FFFFFF;
         }
+        .auto-style7 {
+            color: #993333;
+        }
     </style>
 </head>
 <body>
@@ -110,7 +113,7 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style4"><strong>
-                        <asp:Button ID="btnSearch" runat="server" CssClass="auto-style1" Text="Search" />
+                        <asp:Button ID="btnSearch" runat="server" CssClass="auto-style1" Text="Search" OnClick="btnSearch_Click" />
                         <asp:Button ID="btnRecipe" runat="server" CssClass="auto-style6" Text="Recipe" />
                         <asp:Button ID="btnNutrition" runat="server" CssClass="auto-style5" Text="Nutrition Info" />
                         </strong></td>
@@ -121,7 +124,9 @@
                     <td class="auto-style4">
                         <asp:ImageButton ID="btnBack" runat="server" Height="40px" ImageUrl="~/Images/backIcon.png" Width="40px" />
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblErrorMsg" runat="server" CssClass="auto-style7"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>

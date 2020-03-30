@@ -74,6 +74,7 @@
     <Content Include="Images\map.png" />
     <Content Include="Images\locationIcon.png" />
     <Content Include="SignUp.aspx" />
+    <Content Include="Results.aspx" />
     <EntityDeploy Include="Global.asax" />
     <Content Include="Images\Email.png" />
     <Content Include="Images\password.png" />
@@ -108,8 +109,18 @@
     <Compile Include="SignIn.aspx.designer.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Results.aspx.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Results.aspx.designer.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Help Me Harvest", "Help Me Harvest\Help Me Harvest.csproj", "{F93C76D3-215F-4C3D-A112-C706CB91671A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93C76D3-215F-4C3D-A112-C706CB91671A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93C76D3-215F-4C3D-A112-C706CB91671A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93C76D3-215F-4C3D-A112-C706CB91671A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93C76D3-215F-4C3D-A112-C706CB91671A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F234002-6C93-435F-8992-2BFC65A706F9}
+	EndGlobalSection
+EndGlobal

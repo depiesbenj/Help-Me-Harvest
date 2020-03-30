@@ -33,24 +33,6 @@ namespace Help_Me_Harvest
         protected global::System.Web.UI.WebControls.LinkButton lbAlreadyHaveAccount;
 
         /// <summary>
-        /// imgNameIcon control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgNameIcon;
-
-        /// <summary>
-        /// txtName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
-
-        /// <summary>
         /// imgEmail control.
         /// </summary>
         /// <remarks>
@@ -60,31 +42,67 @@ namespace Help_Me_Harvest
         protected global::System.Web.UI.WebControls.Image imgEmail;
 
         /// <summary>
-        /// txtEmail control.
+        /// txtEmailSignUp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtEmailSignUp;
 
         /// <summary>
-        /// imgPasswordIcon control.
+        /// lblErrorEmailSignUp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgPasswordIcon;
+        protected global::System.Web.UI.WebControls.Label lblErrorEmailSignUp;
 
         /// <summary>
-        /// txtPassword control.
+        /// imgPasswordIcon0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.Image imgPasswordIcon0;
+
+        /// <summary>
+        /// txtPasswordSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPasswordSignUp;
+
+        /// <summary>
+        /// lblErrorPasswordSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorPasswordSignUp;
+
+        /// <summary>
+        /// txtConfirmPasswordSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtConfirmPasswordSignUp;
+
+        /// <summary>
+        /// lblErrorConfirmPasswordSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorConfirmPasswordSignUp;
 
         /// <summary>
         /// btnSignUp control.

@@ -14,12 +14,11 @@
             text-decoration: underline;
             color: #999999;
         }
-        .auto-style2 {
-            font-size: x-small;
-            color: #CCCCCC;
-        }
         .auto-style4 {
             width: 607px;
+        }
+        .auto-style6 {
+            font-size: small;
         }
     </style>
 </head>
@@ -31,7 +30,7 @@
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style1">&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:LinkButton ID="lbSignUp" runat="server">New user? Sign up</asp:LinkButton>
+                        <asp:LinkButton ID="lbSignUp" runat="server" OnClick="lbSignUp_Click">New user? Sign up</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -53,7 +52,8 @@
                         <asp:Image ID="imgEmail" runat="server" Height="14px" ImageUrl="~/Images/Email.png" Width="14px" />
                     </td>
                     <td>
-                        <asp:TextBox ID="txtEmail" runat="server" CssClass="auto-style2">Email</asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server" CssClass="auto-style6"></asp:TextBox>
+                        <asp:Label ID="lblErrorEmailSignIn" runat="server"></asp:Label>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -63,7 +63,8 @@
                         <asp:Image ID="imgPasswordIcon" runat="server" Height="14px" ImageUrl="~/Images/password.png" Width="14px" />
                     </td>
                     <td>
-                        <asp:TextBox ID="txtPassword" runat="server" CssClass="auto-style2">Password</asp:TextBox>
+                        <asp:TextBox ID="txtPassword" runat="server" CssClass="auto-style6"></asp:TextBox>
+                        <asp:Label ID="lblErrorPasswordSignIn" runat="server"></asp:Label>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -83,7 +84,7 @@
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style1">&nbsp;</td>
                     <td>
-                        <asp:Button ID="btnSignUp" runat="server" Text="Login" />
+                        <asp:Button ID="btnSignUp" runat="server" Text="Login" OnClick="btnSignUp_Click" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>

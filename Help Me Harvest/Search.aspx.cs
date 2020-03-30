@@ -13,5 +13,10 @@ namespace Help_Me_Harvest
         {
 
         }
+
+        protected void lbLogout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("signin.aspx");
+        }
     }
 }

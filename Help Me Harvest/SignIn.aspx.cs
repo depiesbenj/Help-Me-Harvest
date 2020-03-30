@@ -13,5 +13,39 @@ namespace Help_Me_Harvest
         {
 
         }
+
+        protected void btnSignUp_Click(object sender, EventArgs e)
+        {
+            //input validation for email
+            if (txtEmail.Text == string.Empty)
+            {
+                lblErrorEmailSignIn.Text = "Please enter a valid email address";
+                return;
+            }
+            else
+            {
+                lblErrorEmailSignIn.Text = string.Empty;
+            }
+
+
+            // test if password has enough characters 
+            if (txtPassword.Text.Length < 6)
+            {
+                lblErrorPasswordSignIn.Text = "Password must be at least 6 characters";
+                return;
+            }
+            else
+            {
+                lblErrorPasswordSignIn.Text = string.Empty;
+            }
+
+
+            Response.Redirect("search.aspx");
+        }
+
+        protected void lbSignUp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("signup.aspx");
+        }
     }
 }

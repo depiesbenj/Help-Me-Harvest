@@ -126,7 +126,7 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style4">
-                        <asp:LinkButton ID="lbLogout" runat="server">Logout</asp:LinkButton>
+                        <asp:LinkButton ID="lbLogout" runat="server" OnClick="lbLogout_Click">Logout</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                 </tr>

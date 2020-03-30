@@ -51,6 +51,15 @@ namespace Help_Me_Harvest
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
+        /// lblErrorEmailSignIn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorEmailSignIn;
+
+        /// <summary>
         /// imgPasswordIcon control.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace Help_Me_Harvest
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
+
+        /// <summary>
+        /// lblErrorPasswordSignIn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorPasswordSignIn;
 
         /// <summary>
         /// btnSignUp control.

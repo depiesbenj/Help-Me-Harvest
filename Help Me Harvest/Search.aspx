@@ -131,7 +131,7 @@
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style4"><strong>
                         <asp:Button ID="btnSearch" runat="server" CssClass="auto-style1" Text="Search" OnClick="btnSearch_Click" />
-                        <asp:Button ID="btnRecipe" runat="server" CssClass="auto-style6" Text="Recipe" />
+                        <asp:Button ID="btnRecipe" runat="server" CssClass="auto-style6" Text="Recipe" OnClick="btnRecipe_Click" />
                         <asp:Button ID="btnNutrition" runat="server" CssClass="auto-style5" Text="Nutrition Info" />
                         </strong></td>
                     <td>&nbsp;</td>

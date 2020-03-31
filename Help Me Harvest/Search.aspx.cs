@@ -71,5 +71,12 @@ namespace Help_Me_Harvest
 
             Response.Redirect("results.aspx");
         }
+
+        protected void btnRecipe_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect($"https://www.allrecipes.com/search/results/?wt={txtFruitVeg.Text}&sort=re");
+
+        }
     }
 }

@@ -74,7 +74,7 @@ namespace Help_Me_Harvest
 
         protected void btnNutrition_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Nutrtion.aspx");
+            Response.Redirect("Nutrtion.aspx", true);
         }
     }
 }

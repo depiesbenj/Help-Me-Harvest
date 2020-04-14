@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DBHelpMeHarvest.mdf" />
+    <Content Include="App_Data\DBHelpMeHarvest_log.ldf">
+      <DependentUpon>DBHelpMeHarvest.mdf</DependentUpon>
+    </Content>
     <Content Include="Images\backIcon.png" />
     <Content Include="Images\directionsIcon.png" />
     <Content Include="Images\current-location-icon-png-27.jpg" />
@@ -133,7 +137,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

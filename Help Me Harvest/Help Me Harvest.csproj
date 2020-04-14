@@ -82,6 +82,7 @@
     <Content Include="Images\Vegetable 2.png" />
     <Content Include="SignUp.aspx" />
     <Content Include="Results.aspx" />
+    <Content Include="Nutrition.aspx" />
     <EntityDeploy Include="Global.asax" />
     <Content Include="Images\Email.png" />
     <Content Include="Images\password.png" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="Results.aspx.designer.cs">
       <DependentUpon>Results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nutrition.aspx.cs">
+      <DependentUpon>Nutrition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nutrition.aspx.designer.cs">
+      <DependentUpon>Nutrition.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

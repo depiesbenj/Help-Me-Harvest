@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DBHelpMeHarvest.mdf" />
+    <Content Include="App_Data\DBHelpMeHarvest_log.ldf">
+      <DependentUpon>DBHelpMeHarvest.mdf</DependentUpon>
+    </Content>
     <Content Include="Images\backIcon.png" />
     <Content Include="Images\directionsIcon.png" />
     <Content Include="Images\current-location-icon-png-27.jpg" />
@@ -78,6 +82,7 @@
     <Content Include="Images\Vegetable 2.png" />
     <Content Include="SignUp.aspx" />
     <Content Include="Results.aspx" />
+    <Content Include="Nutrition.aspx" />
     <EntityDeploy Include="Global.asax" />
     <Content Include="Images\Email.png" />
     <Content Include="Images\password.png" />
@@ -119,6 +124,13 @@
     <Compile Include="Results.aspx.designer.cs">
       <DependentUpon>Results.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Nutrition.aspx.cs">
+      <DependentUpon>Nutrition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nutrition.aspx.designer.cs">
+      <DependentUpon>Nutrition.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\.editorconfig">
@@ -133,7 +145,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
